@@ -162,8 +162,10 @@ a:focus {
 }
 
 .download {
-  margin: 0;
+  display: block;
+  margin: 0 auto;
   padding: 0;
+  text-align: center;
   width: 164px;
   height: 60px;
   font-family: "Playfair Display", "Times New Roman", serif;
