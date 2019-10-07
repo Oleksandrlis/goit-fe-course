@@ -63,7 +63,14 @@ img {
 }
 .site-navigation-item {
   display: inline-block;
-  margin-right: 77px;
+  margin-right: 100px;
+}
+
+.site-navigation-item:nth-child(1) {
+  margin-left: 165px;
+}
+.site-navigation-item:nth-child(4) {
+  margin-right: 165px;
 }
 
 .site-navigation a {
@@ -173,4 +180,13 @@ a:focus {
   line-height: 24px;
   background-color: white;
   cursor: pointer;
+  margin-bottom: 71px;
+}
+
+.download {
+  border: black thin solid;
+}
+
+.content-item:nth-child(n + 5) {
+  margin-bottom: 56px;
 }
