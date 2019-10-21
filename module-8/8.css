@@ -1,0 +1,427 @@
+/* roboto-300 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Light"), local("Roboto-Light"),
+    url("./fonts/roboto-v20-latin-300.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("./fonts/roboto-v20-latin-300.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto"), local("Roboto-Regular"),
+    url("./fonts/roboto-v20-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("./fonts/roboto-v20-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-regular - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"),
+    url("./fonts/montserrat-v14-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("./fonts/montserrat-v14-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-900 - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Montserrat Black"), local("Montserrat-Black"),
+    url("./fonts/montserrat-v14-latin-900.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("./fonts/montserrat-v14-latin-900.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-700 - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Montserrat Bold"), local("Montserrat-Bold"),
+    url("./fonts/montserrat-v14-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("./fonts/montserrat-v14-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  /* outline: 1px solid red; */
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.background {
+  background-image: url(./images/Rectangle1.png);
+  width: 340px;
+  height: 540px;
+  background-repeat: no-repeat;
+  margin-bottom: 70px;
+}
+
+.logo {
+  display: none;
+}
+
+.button-nav {
+  width: 320px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+
+.button-nav button:hover {
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+}
+
+.button-nav button:focus {
+  outline: none;
+}
+
+.button-nav button {
+  width: 74px;
+  height: 36px;
+  background: transparent;
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  border: transparent;
+}
+
+.title-logo {
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.title {
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.background p {
+  color: #ffffff;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  padding: 0 65px;
+  margin-bottom: 22px;
+}
+
+.btn-find {
+  display: block;
+  margin: 0 23px;
+  width: 272px;
+  height: 40px;
+  background-color: #ff4e50;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+}
+
+.subtitle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.partners {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.partner-item {
+  list-style-type: none;
+  padding: o 46px;
+  margin-bottom: 30px;
+}
+
+.partner-item p {
+  color: #666666;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.2;
+  padding: 0 50px;
+}
+
+img {
+  border-radius: 122px;
+  margin-bottom: 20px;
+}
+
+.img {
+  position: relative;
+  width: 122px;
+  height: 122px;
+  margin: 0 auto;
+}
+
+.caption {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.partner-item {
+  position: relative;
+}
+
+.img::after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  content: "";
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+}
+
+.partner-item:nth-child(1) .img::after {
+  background-image: url(./images/Shape128.png);
+  background-color: #ff4e50;
+}
+
+.partner-item:nth-child(2) .img::after {
+  background-image: url(./images/Shape153.png);
+  background-color: #ffa507;
+}
+
+.partner-item:nth-child(3) .img::after {
+  background-image: url(./images/Shape155.png);
+  background-color: #1cd7ad;
+}
+
+.partner-item:nth-child(4) .img::after {
+  background-image: url(./images/Shape170.png);
+  background-color: #4e73db;
+}
+
+.btn-partners {
+  display: block;
+  margin: 0 23px;
+  width: 272px;
+  height: 40px;
+  background-color: transparent;
+  color: #ff4e50;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 50px;
+  border-color: #ff4e50;
+  outline: none;
+  margin-bottom: 60px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+    margin: 0 auto;
+  }
+
+  .background {
+    background-image: url(./images/VectorSmartObject.png);
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 768px;
+    height: 700px;
+    background-repeat: no-repeat;
+    margin-bottom: 70px;
+  }
+
+  .logo {
+    display: block;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    padding-top: 6px;
+  }
+
+  .page-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 54px 154px 54px;
+  }
+
+  .title-logo {
+    display: none;
+  }
+
+  .title {
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-size: 52px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 110px;
+    margin-bottom: 40px;
+  }
+
+  .background p {
+    color: #ffffff;
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: center;
+    padding: 0 65px;
+    margin-bottom: 36px;
+  }
+
+  .btn-find {
+    display: block;
+    margin: 0 auto;
+    width: 272px;
+    height: 40px;
+    background-color: #ff4e50;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    margin-bottom: 136px;
+  }
+
+  .partner-item:nth-child(n + 3) {
+    margin-bottom: 0;
+  }
+
+  .btn-partners {
+    display: block;
+    margin: 40px auto;
+  }
+
+  .partners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 512px;
+  }
+
+  .partner-item {
+    width: 256px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 1440px;
+    margin: 0 auto;
+  }
+
+  .background {
+    background-image: url(./images/Vector.png);
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 1440px;
+    height: 700px;
+  }
+
+  .page-nav {
+    padding: 36px 250px 14px 250px;
+  }
+
+  .logo {
+    font-family: "Roboto Slab";
+    font-weight: 500;
+  }
+
+  .title {
+    padding: 0;
+    margin: 0 auto 40px;
+    width: 500px;
+    letter-spacing: -1px;
+  }
+
+  .background p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+  }
+
+  .partners {
+    flex-wrap: nowrap;
+    width: 942px;
+  }
+
+  .partner-item {
+    width: 222px;
+  }
+
+  .partner-item p {
+    padding: 0;
+  }
+}
